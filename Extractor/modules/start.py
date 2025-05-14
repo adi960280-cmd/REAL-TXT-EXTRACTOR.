@@ -164,7 +164,7 @@ back_button  = [[
 
 
 # ------------------------------------------------------------------------------- #
-captionn =("Welcome to Our Real TXT Extractor Bot.\n\n Some Bot Commands are :\n\n \n /appx - For Master Appx\n /appxlist - For Appxlist\n /appxotp - For Appx OTP Login \n /adda - For Adda 247 \n /cp -  For Classplus \n /getapi - To Find Appx Api \n /iq - For Study IQ \n /kd - For KD Campus\n /kgs - For Khan GS App\n /pw - For Physics Wallah \n /utkarsh - For Utkarsh " )
+captionn =("ʜᴇʏ 👋\n\n☆ ɪ ᴀᴍ ʀᴇᴀʟ ᴛxᴛ ᴇxᴛʀᴀᴄᴛᴏʀ ʙᴏᴛ.\n\n☆ sᴏᴍᴇ ᴄᴏᴍᴍᴀɴᴅs ᴀʀᴇ :\n\n \n /appx - ғᴏʀ ᴍᴀsᴛᴇʀ ᴀᴘᴘx\n /appxlist - ғᴏʀ ᴀᴘᴘxʟɪsᴛ\n /appxotp - ғᴏʀ ᴀᴘᴘᴇx ᴏᴛᴘ ʟᴏɢɪɴ \n /adda - ғᴏʀ ᴀᴅᴅᴀ 247 \n /cp -  ғᴏʀ ᴄʟᴀssᴘʟᴜs \n /getapi - ᴛᴏ ғɪɴᴅ ᴀᴘᴘx ᴀᴘɪ \n /iq - ғᴏʀ sᴛᴜᴅʏ ɪǫ \n /kd - ғᴏʀ ᴋᴅ ᴄᴀᴍᴘᴜs\n /kgs - ғᴏʀ ᴋʜᴀɴ ɢs ᴀᴘᴘ\n /pw - ғᴏʀ ᴘʜʏsɪᴄs ᴡᴀʟʟᴀʜ \n /utkarsh - ғᴏʀ ᴜᴛᴋᴀʀsʜ " )
 
 
 @app.on_message(filters.command("start"))
