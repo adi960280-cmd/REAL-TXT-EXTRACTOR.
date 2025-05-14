@@ -1,4 +1,4 @@
-from config import CHANNEL_ID, SUDO_USERS 
+from config import CHANNEL_ID, SUDO_USERS, PREMIUM_LOGS
 from Extractor.core import script
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import *
@@ -24,7 +24,8 @@ async def gen_link(app,chat_id):
    return link
 
 async def subscribe(app, message):
-   update_channel = CHANNEL_ID
+   #update_channel = CHANNEL_ID
+   update_channel = PREMIUM_LOGS
    url = await gen_link(app, update_channel)
    if update_channel:
       try:
