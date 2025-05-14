@@ -56,7 +56,7 @@ async def broadcast(_, message):
 
 # ----------------------------Announce---------------------------- #
         
-@app.on_message(filters.command("cobra") & filters.user(OWNER_ID))
+@app.on_message(filters.command("tushar") & filters.user(OWNER_ID))
 async def announced(_, message):
     if message.reply_to_message:
       to_send=message.reply_to_message.id
