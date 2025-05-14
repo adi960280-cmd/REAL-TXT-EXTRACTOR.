@@ -1,5 +1,5 @@
 
-IMG = ["https://img.freepik.com/premium-photo/king-cobra-snake-cool-character-background-hd-wallpaper_862489-10700.jpg?w=360"]
+IMG = ["https://graph.org/file/94851eb7944471ce44d78-e11b24b86ad3ffe823.jpg"]
 
 
 # ------------------------------------------------------------ #
