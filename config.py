@@ -23,22 +23,22 @@ PREMIUM_LOGS = int(getenv("PREMIUM_LOGS", "-1002363250260"))
 import os
 from os import getenv
 # ---------------R---------------------------------
-API_ID = int(os.environ.get("API_ID", "16253557"))
+API_ID = int(os.environ.get("API_ID", ""))
 # ------------------------------------------------
-API_HASH = os.environ.get("API_HASH", "81171c25e4cb9062cb10da8b7730432a")
+API_HASH = os.environ.get("API_HASH", "")
 # ----------------D--------------------------------
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 # -----------------A-------------------------------
 BOT_USERNAME = os.environ.get("BOT_USERNAME")
 # ------------------X------------------------------
-OWNER_ID = int(os.environ.get("OWNER_ID", "1996039956"))
+OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 # ------------------X------------------------------
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1996039956").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
 # ------------------------------------------------
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002303968273"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 # ------------------------------------------------
 MONGO_URL = os.environ.get("MONGO_URL", "met/?retryWrites=true&w=majority")
 # -----------------------------------------------
-PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1002363250260"))
+PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", ""))
 
